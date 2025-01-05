@@ -1,0 +1,33 @@
+###
+GET http://localhost:3000/posts/2
+
+###
+POST http://localhost:3000/post/2
+Content-Type: application/json
+
+{
+    "title": "Created new one",
+    "description": "New one Description.",
+    "images": ["12", "34"]
+}
+
+###
+PUT http://localhost:3000/edit/2/post/19
+Content-Type: application/json
+
+{
+    "title": "Animal",
+    "description": "Movie",
+    "images": ["Ranvir", "Rashmika"]
+}
+
+###
+DELETE http://localhost:3000/delete/1/post/16
+
+
+###
+GET http://localhost:3000/posts/ 
+
+
+###
+GET http://localhost:3000/users/ 
